@@ -66,12 +66,40 @@ The MVT workflow defines how a request from the user is processed and how the re
 
 ---
 
+## MVT vs MVC
+
+Django’s **MVT** architecture is a **variation of the traditional MVC (Model–View–Controller)** pattern.  
+The core concept remains the same; only the terminology differs.
+
+### MVC (Model–View–Controller)
+
+- **Model** – Manages data and database logic
+- **View** – Handles the user interface
+- **Controller** – Handles request processing and business logic
+
+### MVT (Model–View–Template)
+
+- **Model** – Manages data and database logic
+- **View** – Handles request processing and business logic  
+  *(Acts like the Controller in MVC)*
+- **Template** – Handles the presentation layer (HTML)
+
+### Key Difference
+
+- In **MVC**, the **Controller** manages the logic
+- In **Django MVT**, the **View** acts as the Controller
+- **Template** replaces the traditional View of MVC
+
+> ✔️ The architecture is conceptually the same — only the naming convention is different.
+
+---
+
 ## Summary
 
 - MVT separates data, logic, and presentation
 - Improves code readability and maintainability
 - Allows faster and more scalable development
-- Automatically handled by Django framework
+- Automatically handled by the Django framework
 
 ---
 
