@@ -6,25 +6,21 @@ A complete guide to learning Django from basics to advanced backend development 
 
 ## 📘 Course Structure
 
-- [Introduction to Django & Backend Development](./Introduction)
+- [Introduction to Django & Backend Development](./01-introduction)
+- [Django Project & App Architecture](./02-project-architecture)
+- [MVT (Model–View–Template) Explained Clearly](./03-mvt)
 
-- [Django Project & App Architecture](./Django%20Project%20%26%20App%20Architecture)
-
-- [MVT (Model–View–Template) Explained Clearly](./MVT)
-
-- URL Routing & Views  
-- Templates & Static Files  
-- Django Models & ORM (QuerySets)  
-- Database Integration (SQLite / PostgreSQL Basics)  
-- Django Forms & Model Forms  
-- Authentication & Authorization  
-- User Login, Signup & Logout  
-- Django Admin Customization  
-- Class-Based Views vs Function-Based Views  
-- REST API Basics with Django  
-- CRUD Operations (Create, Read, Update, Delete)  
-- Error Handling & Debugging  
-- Deployment Concepts (Basics)
-
+- [URL Routing & Views](./04-urls-views)
+- [Templates & Static Files](./05-templates-static)
+- [Django Models & ORM (QuerySets)](./06-models-orm)
+- [Database Integration (SQLite / PostgreSQL Basics)](./07-database)
+- [Django Forms & Model Forms](./08-forms)
+- [Authentication & Authorization](./09-auth)
+- [User Login, Signup & Logout](./10-auth-flow)
+- [Django Admin Customization](./11-admin)
+- [Class-Based Views vs Function-Based Views](./12-cbv-vs-fbv)
+- [REST API Basics with Django](./13-rest-api)
+- [CRUD Operations (Create, Read, Update, Delete)](./14-crud)
+- [Error Handling & Debugging](./15-debugging)
+- [Deployment Concepts (Basics)](./16-deployment)
 ---
-
